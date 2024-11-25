@@ -12,8 +12,8 @@ def home(request):
     }
     return render(request, 'home.html', context)
 
-def cart(request):
-    return render(request, 'cart.html')
+# def cart(request):
+#     return render(request, 'cart.html')
 
 
 def dashboard(request):
